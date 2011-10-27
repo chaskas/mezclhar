@@ -6,15 +6,71 @@ default:
     content-type: text/html
 
   metas:
-    #title:        symfony project
+    title:        Mezcla de Harinas
     #description:  symfony project
     #keywords:     symfony, project
     #language:     en
     #robots:       index, follow
 
-  stylesheets:    [main.css]
+  stylesheets:    
+    - "http://fonts.googleapis.com/css?family=PT+Sans:regular,bold"
+    - style.css
+    - dark/theme.css
+    - ie.css: { condition: IE 9 }
 
-  javascripts:    []
+  javascripts:  
+    - "http://html5shim.googlecode.com/svn/trunk/html5.js": { condition: IE 9 }
+    - "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
+    - "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"
+    - functions.js
+    - plugins.js
+    - editor.js
+    - calendar.js
+    - flot.js
+    - elfinder.js
+    - datatables.js
+    - wl_Alert.js
+    - wl_Autocomplete.js
+    - wl_Breadcrumb.js
+    - wl_Calendar.js
+    - wl_Chart.js
+    - wl_Color.js
+    - wl_Date.js
+    - wl_Editor.js
+    - wl_File.js
+    - wl_Dialog.js
+    - wl_Fileexplorer.js
+    - wl_Form.js
+    - wl_Gallery.js
+    - wl_Multiselect.js
+    - wl_Number.js
+    - wl_Password.js
+    - wl_Slider.js
+    - wl_Store.js
+    - wl_Time.js
+    - wl_Valid.js
+    - wl_Widget.js
+    - config.js
+    - script.js
 
   has_layout:     true
   layout:         layout
+ 
+ 
+signinSuccess:
+  
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Login
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
+    #robots:       index, follow
+  stylesheets:    []
+  
+  javascripts:    [-*,wl_Alert.js,wl_Dialog.js,wl_Form.js,login.js]
+      
+  has_layout:     true
+  layout:         login
