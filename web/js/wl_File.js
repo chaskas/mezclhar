@@ -392,7 +392,7 @@ $.fn.wl_File = function (method) {
 
 $.fn.wl_File.defaults = {
 	url: 'upload.php',
-	autoUpload: true,
+	autoUpload: false,
 	paramName: 'files',
 	multiple: false,
 	allowedExtensions: false,

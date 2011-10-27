@@ -15,7 +15,7 @@ default:
   stylesheets:    
     - "http://fonts.googleapis.com/css?family=PT+Sans:regular,bold"
     - style.css
-    - dark/theme.css
+    - light/theme.css
     - ie.css: { condition: IE 9 }
 
   javascripts:  
@@ -70,7 +70,7 @@ signinSuccess:
     #robots:       index, follow
   stylesheets:    []
   
-  javascripts:    [-*,wl_Alert.js,wl_Dialog.js,wl_Form.js,login.js]
+  javascripts:    [-*,"https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js",wl_Alert.js,wl_Dialog.js,wl_Form.js,login.js]
       
   has_layout:     true
   layout:         login

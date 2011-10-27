@@ -122,7 +122,7 @@ if($.fn.wl_Editor) $.fn.wl_Editor.defaults = {
 
 if($.fn.wl_File) $.fn.wl_File.defaults = {
 	url: 'upload.php',
-	autoUpload: true,
+	autoUpload: false,
 	paramName: 'files',
 	multiple: false,
 	allowedExtensions: ['jpg','jpeg','gif','png','doc','zip','docx','txt','pdf'],

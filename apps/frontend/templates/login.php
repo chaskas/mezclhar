@@ -11,5 +11,5 @@
   <body id="login">
     <?php echo $sf_content; ?>
   </body>
-  <footer>Copyright by WebDevel.cl - 2011</footer>
+<!--  <footer>Copyright by <a href="http://www.webdevel.cl" target="_blank">WebDevel.cl</a> - 2011</footer>-->
 </html>

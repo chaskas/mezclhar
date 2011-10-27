@@ -435,7 +435,7 @@
 
 /*----------------------------------------------------------------------*/
 /* jQuery Uniform v1.7.5
-/* Copyright © 2009 Josh Pyles / Pixelmatrix Design LLC
+/* Copyright ï¿½ 2009 Josh Pyles / Pixelmatrix Design LLC
 /* http://pixelmatrixdesign.com
 /* License: MIT License - http://www.opensource.org/licenses/mit-license.php
 /*----------------------------------------------------------------------*/
@@ -450,8 +450,8 @@
       fileClass: 'uploader',
       filenameClass: 'filename',
       fileBtnClass: 'action',
-      fileDefaultText: 'No file selected',
-      fileBtnText: 'Choose File',
+      fileDefaultText: 'Seleccione',
+      fileBtnText: 'Examinar',
       checkedClass: 'checked',
       focusClass: 'focus',
       disabledClass: 'disabled',

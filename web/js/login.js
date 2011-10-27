@@ -10,7 +10,7 @@ $(document).ready(function() {
   if(!$.browser.msie) $body.fadeTo(0,0.0).delay(500).fadeTo(1000, 1);
 		
 		
-  $("input").uniform();
+  //$("input").uniform();
 		
 
 //  $form.wl_Form({
